@@ -76,7 +76,7 @@ group by location, population
 order by 2;
 DESC coviddeaths;
 
-#7 Continents with highest death count per population #ASK mam about the output
+#7 Continents with highest death count per population 
 select continent, MAX(total_deaths) as TotalDeaths
 from coviddeaths
 where continent is not null
